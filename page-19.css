@@ -53,6 +53,13 @@ font-size: 40px;
     /* margin-right: 10px; */
 }
 
+.vertical {
+    border-left: 1px solid #dee2e627;
+   height: 60px;
+   position:absolute;
+   left: 50%;
+}
+
 .jumbo-content-box #pay-txt{
     text-align: right;
 }
@@ -115,6 +122,7 @@ text-align: left;
     color: #1A1E2B;
     font-size: 10px;
     opacity: 50%;
+   
 }
 
 .participant-details span span.time{
@@ -137,6 +145,12 @@ text-align: left;
     font-size: 10px;
     color: #191D2A;
     text-align: center;
+    border-radius: 2px;
+     /* border: 1px solid red; */
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    background-color: #F5F7FD;
+
 }
 
 .calender-box-2 {
