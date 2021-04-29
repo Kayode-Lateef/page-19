@@ -28,29 +28,12 @@ font-size: 40px;
     border: 1px solid #fff;
     border-radius: 8px;
     margin: auto;
-    /* padding: 10px 20px; */
+    /* width: 901px !important; */
+    /* height: 122px; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    /* margin-left: 10px; */
   
-}
-
-.jumbo-content-box div:nth-child(2){
-    border-left: 1px solid #dee2e627;
-    padding-left: 125px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.jumbo-content-box p:nth-child(1){
-    color: #fff;
-    font-size: 14px;
-    opacity: 50%;
-    font-weight: 700;
-    margin-top: 20px;
-
-    /* margin-right: 10px; */
 }
 
 .vertical {
@@ -58,6 +41,48 @@ font-size: 40px;
    height: 60px;
    position:absolute;
    left: 50%;
+}
+
+
+.jumbo-content-box .jumbo-left{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.jumbo-content-box .jumbo-left p:nth-child(1){
+    color: #fff;
+    font-size: 14px;
+    opacity: 50%;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.jumbo-content-box .jumbo-left p:nth-child(2){
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.jumbo-content-box .jumbo-right{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+}
+
+.jumbo-content-box .jumbo-right p:nth-child(1){
+    color: #fff;
+    font-size: 14px;
+    opacity: 50%;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.jumbo-content-box .jumbo-right p:nth-child(2){
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 
 .jumbo-content-box #pay-txt{
